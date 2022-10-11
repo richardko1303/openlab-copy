@@ -42,7 +42,7 @@
     color: #566b8d;
 }
 .cards {
-    height: 400px;
+    height: 300px;
 }
 .card {
     float: left;
@@ -50,4 +50,92 @@
 }
 #cardImg {
     margin-bottom: 10px;
+}
+.info {
+    padding-top: 50px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 15px;
+
+    width: 670px;
+    padding-right: 100px;
+
+    /*height: 1000px;*/
+}
+.infoGraph {
+    width: 476px;
+    height: 376px;
+    /*border: 1px solid black;*/
+
+    float: left;
+}
+.div1 {
+    background-color: #edf8ff;
+    width: 233px;
+    height: 183px;
+    float: left;
+    margin-right: 8px;
+    color: #5b94d7;
+    font-weight: bold;
+
+    padding: 16px;
+
+    text-align: right;
+    padding-top: 45px;
+
+    border-radius:4px;
+}
+.div2 {
+    background-color: #d3ffdf;
+    width: 233px;
+    height: 183px;
+    float: left;
+    margin-bottom: 8px;
+    color: #5cc19a;
+    font-weight: bold;
+
+    padding: 16px;
+
+    text-align: right;
+    padding-top: 45px;
+
+    border-radius:4px;
+}
+.div3 {
+    background-color: #fff6c5;
+    width: 233px;
+    height: 183px;
+    float: left;
+    margin-right: 8px;
+    color: #dbca68;
+    font-weight: bold;
+
+    padding: 16px;
+
+    text-align: right;
+    padding-top: 45px;
+
+    border-radius:4px;
+}
+.div4 {
+    background-color: #ffc1c1;
+    width: 233px;
+    height: 183px;
+    float: left;
+    margin-bottom: 8px;
+    color: #b95e73;
+    font-weight: bold;
+
+    padding: 16px;
+
+    text-align: right;
+    padding-top: 45px;
+
+    border-radius:4px;
+}
+#headingStats {
+    padding-bottom: 30px;
+}
+#textStats {
+    color: #566b8d;
 }
