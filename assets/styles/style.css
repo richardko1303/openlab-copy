@@ -152,9 +152,50 @@
 .labsCards {
     margin-left: 400px;
 }
+#labCard:hover {
+    box-shadow: 0 0 50px #ccc;
+}
 .card {
     transition: 0.3s;
 }
-.card:hover {
+/* .card:hover {
     border: 1px solid #3597ff;
+    box-shadow: 0 0 50px #ccc;
+} */
+.labsCards.card:hover {
+    border: 1px solid #3597ff;
+}
+.schools {
+    float: left;
+    text-align: center;
+
+    margin-left: 20px;
+}
+.school1 {
+    width: 400px;
+    height: 350px;
+
+    /* border: 1px solid black; */
+    margin-left: 40px;
+}
+.school2 {
+    width: 400px;
+    height: 350px;
+
+    /* border: 1px solid black; */
+    margin-left: 20px;
+}
+#schoolsHeading {
+    padding-bottom: 50px;
+    padding-left: 110px;
+}
+.textLink {
+    display: flex;
+    align-content: center;
+}
+#card1-link {
+    padding-top: 25px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #3597FF;
 }
