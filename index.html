@@ -15,7 +15,7 @@
     
     <!-- button class="btn btn-outline-warning" type="button" style="margin: 10px;">Send</button -->
 
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light" style="padding-left: 50px; padding-right: 50px;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/openlab-logo.svg">
@@ -43,17 +43,20 @@
               </li>
               
               <li class="nav-item">
-                <a class="nav-link">Partneri</a>
+                <a class="nav-link" href="#">Partneri</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link">Moderná Škola</a>
+                <a class="nav-link" href="#"">Moderná Škola</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
+            <!--form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Type..." aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            </form-->
+            <a href="https://openlab.sk/openlaby/" target="_blank">
+              <button class="btn btn-primary" type="submit">Pridajte sa k nám</button>
+            </a>
           </div>
         </div>
       </nav>
@@ -120,7 +123,7 @@
 
       </div>
 
-              <!-- TODO: Dokonči sekciu #3-->
+
       <div class="stats">
 
         <div class="info">
@@ -162,6 +165,47 @@
             <p style="font-size: 20px;">školy</p>
             
           </div>
+
+        </div>
+
+      </div>
+      <!-- TODO: Urob sekciu 4-->
+
+      <div class="labs">
+
+        <div class="labsHeading">
+
+          <h1 id="labsHeadingText">V akých laboch <span class="fw-bold">možeš študovať?</span></h1>
+
+        </div>
+
+        <div class="labsCards">
+
+          <div class="card" style="width: 240px; height: 262px; margin: 0;">
+            <div class="card-body">
+              <h5 style="font-weight: 300;" class="card-title"><span class="fw-bold">Hybrid</span>Lab</h5>
+              <p class="card-text">Študenti sa učia vyvíjať hybridné aplikácie v HTML, PHP, CSS, JavaScript, Ionicu, Vue a OctoberCMS.</p>
+              <a style="margin-top: 48px;" href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 240px; height: 262px; margin: 0; margin-left: 10px;">
+            <div class="card-body">
+              <h5 style="font-weight: 300;" class="card-title"><span class="fw-bold">Games</span>Lab</h5>
+              <p class="card-text">Študenti vyvíjajú mobilné hry v Unity a GDevelop, učia sa tvoriť 2D grafiku v programe Piskel, 3D grafiku v programe Blender a herný dizajn.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <!--<a href="#" style="cursor: pointer;"> -->
+            <div class="card" style="width: 240px; height: 262px; margin: 0; margin-left: 10px;">
+              <div class="card-body">
+                <h5 style="font-weight: 300;" class="card-title"><span class="fw-bold">Apps</span>Lab</h5>
+                <p class="card-text">Študenti sa učia vyvíjať mobilné aplikácie v C# a Xamarin.forms a webové aplikácie v Java a Angular JS.</p>
+                <a style="margin-top: 25px;" href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          <!-- </a> -->
 
         </div>
 

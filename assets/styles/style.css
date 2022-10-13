@@ -51,6 +51,9 @@
 #cardImg {
     margin-bottom: 10px;
 }
+.stats {
+    height: 50px;
+} 
 .info {
     padding-top: 50px;
     float: left;
@@ -59,8 +62,6 @@
 
     width: 670px;
     padding-right: 100px;
-
-    /*height: 1000px;*/
 }
 .infoGraph {
     width: 476px;
@@ -138,4 +139,22 @@
 }
 #textStats {
     color: #566b8d;
+}
+.labs {
+    margin-left: 100px;
+    margin-top: 400px;
+}
+.labsHeading {
+    width: 300px;
+    float: left;
+
+}
+.labsCards {
+    margin-left: 400px;
+}
+.card {
+    transition: 0.3s;
+}
+.card:hover {
+    border: 1px solid #3597ff;
 }
